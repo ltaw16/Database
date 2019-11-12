@@ -73,4 +73,4 @@ if (__name__ == "__main__"):
     Handler = MovieHandler()
     parser.setContentHandler(Handler)
 
-    parser.parse("./xml_files/remakes05.xml")
+    parser.parse("../xml_files/remakes05.xml")
