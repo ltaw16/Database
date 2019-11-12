@@ -1,0 +1,24 @@
+# needed for connection
+# tutorial website: https://pynative.com/python-postgresql-tutorial/
+# psycopg doc: http://initd.org/psycopg/docs/cursor.html#fetch
+
+import psycopg2 as psycopg2
+
+try:
+    conn = psycopg2.connect(host="10.90.10.41",
+                            database="yikes",
+                            user="ltaw16",
+                            password="oracle")
+                            
+    # just testing stuff
+    cursor = conn.cursor()
+    cursor.execute("select * from movie;")
+    for record in cursor:
+        print(record)
+
+except (Exception, psycopg2.Error) as error:
+    print("error while connecting to postgresql", error)
+finally:
+    if(conn):
+        cursor.close()
+        conn.close()
