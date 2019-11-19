@@ -7,7 +7,9 @@ import psycopg2 as psycopg2
 
 class MovieHandler(xml.sax.ContentHandler):
 
+
     def __init__(self):
+
 
         self.CurrentData = ""
         self.stagename = ""
@@ -33,50 +35,21 @@ class MovieHandler(xml.sax.ContentHandler):
 
     # Call when an elements ends
     def endElement(self, tag):
-        # if self.CurrentData == "stagename":
-        #     print("Stage name:", self.stagename)
-        # elif self.CurrentData == "dowstart":
-        #     print("Start date:", self.dowstart)
-        # elif self.CurrentData == "dowend":
-        #     print("End date:", self.dowend)
-        # elif self.CurrentData == "dod":
-        #     print("Date of death: ", self.dod)
-        # elif self.CurrentData == "familyname":
-        #     print("Family name:", self.familyname)
-        # elif self.CurrentData == "firstname":
-        #     print("First name:", self.firstname)
-        # elif self.CurrentData == "gender":
-        #     print("Gender:", self.gender)
-        # elif self.CurrentData == "dob":
-        #     print("Date of birth:", self.dob)
+        if self.CurrentData == "stagename":
+            print("Stage name:", self.stagename)
+        elif self.CurrentData == "dowstart":
+            print("Start date:", self.dowstart)
+        elif self.CurrentData == "dowend":
+            print("End date:", self.dowend)
+        elif self.CurrentData == "dod":
+            print("Date of death: ", self.dod)
+        elif self.CurrentData == "familyname":
+            print("Family name:", self.familyname)
+        elif self.CurrentData == "firstname":
+            print("First name:", self.firstname)
+        if self.CurrentData == "dob":
+            print("Date of birth:", self.dob)
 
-        try:
-            conn = psycopg2.connect(host="10.90.10.41",
-                                    database="yikes",
-                                    user="ltaw16",
-                                    password="oracle")
-            cursor = conn.cursor()
-            query = """insert into actor values(%s, %s, %s, %s, %s, %d, %d, %d, %d);"""
-            record = (self.stagename, self.familyname, "null", self.roletype, self.picref, self.dob, self.dowstart, self.dod, self.dowend)
-            cursor.execute(query, record)
-            conn.commit()
-            count = cursor.rowcount
-            print(count, "records inserted successfully into actor table")
-        except (Exception, psycopg2.Error) as error:
-            if (conn):
-                print("Failed to insert record into actor table", error)
-        finally:
-
-        #   closing database connection.
-
-            if (conn):
-                cursor.close()
-
-                conn.close()
-
-                print("PostgreSQL connection is closed")
-
-        # send data to database
 
         self.CurrentData = ""
 
@@ -99,9 +72,16 @@ class MovieHandler(xml.sax.ContentHandler):
             self.gender = content
         elif self.CurrentData == "dob":
             self.dob = content
+        elif self.CurrentData == "dod":
+            self.dod = content
+        elif self.CurrentData == "roletype":
+            self.roletype = content
+        elif self.CurrentData == "picref":
+            self.picref = content
 
 
 if (__name__ == "__main__"):
+
     # create an XMLReader
     parser = xml.sax.make_parser()
     # turn off namepsaces
@@ -112,3 +92,4 @@ if (__name__ == "__main__"):
     parser.setContentHandler(Handler)
 
     parser.parse("../xml_files/actors63.xml")
+
