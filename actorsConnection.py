@@ -8,8 +8,10 @@ import re
 
 
 def main():
-    ### load actors ###
-    load_actors()
+    print("hello world")
+
+    # UNCOMMENT THIS TO ACTUALLY RUN
+    # load_actors()
 
 
 def load_actors():
