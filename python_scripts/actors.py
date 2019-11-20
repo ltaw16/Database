@@ -14,7 +14,7 @@ csvwriter = csv.writer(Actor_data)
 actor_head = []
 
 for member in root.findall('actor'):
-    attribute_list = ["stagename", "familyname", "roletype", "picref", "dob", "dowstart", "dod", "dowend"]
+    attribute_list = ["stagename", "familyname", "background", "roletype", "picref", "dob", "dowstart", "dod", "dowend"]
     actor = []
     for attribute in attribute_list:
         if member.find(attribute) is None:

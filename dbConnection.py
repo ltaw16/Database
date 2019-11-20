@@ -4,12 +4,13 @@
 
 import psycopg2 as psycopg2
 
+
 try:
     conn = psycopg2.connect(host="10.90.10.41",
                             database="yikes",
                             user="ltaw16",
                             password="oracle")
-                            
+
     # just testing stuff
     cursor = conn.cursor()
     # stage name, real name, background, type of tole, images, dob, dowstart, dod, dow end,
