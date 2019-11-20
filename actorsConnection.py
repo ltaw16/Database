@@ -13,7 +13,6 @@ def main():
     # UNCOMMENT THIS TO ACTUALLY RUN
     # load_actors()
 
-
 def load_actors():
     regex = "\d{4}"
     try:
