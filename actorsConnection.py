@@ -8,7 +8,7 @@ import re
 
 
 def main():
-    ### load actors ###
+    """load actors"""
     load_actors()
 
 
