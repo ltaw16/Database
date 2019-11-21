@@ -27,6 +27,7 @@ for member in root.findall('person'):
             person.append(None)
         else:
             person.append(member.find(attribute).text)
+
     csvwriter.writerow(person)
 
 People_data.close()

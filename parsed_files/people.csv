@@ -8,7 +8,6 @@ J.Abrahams,JiA,,\Un,,1988,Abrahams,\Am,WD,1980,Jim
 Jeffrey~Abrams,,1967,\Un,1991,1992,Abrams,\Am,W,,Jeffrey
 Abramson,NAb,,\Un,,,Abramson,\Ct,D,1998,Neil
 Abduladze,TAb,,\Un,,,Abduladze,\Ru,D,1977,Tengiz
-Abramson,NAb,,\Un,,,Abramson,\Ct,D,1998,Nel
 Ackerman,RAA,19xx,\Un,,,Ackerman,\Ct,D,1994,Robert Allan
 Acub,NAA,,\Un,,,Acub,\II,D,1957,Nya' Abbas
 Ken~Adam,,1921,\Un,1947,1993,Adam,\Ge,V,,Ken
@@ -1352,13 +1351,12 @@ Herk,HHe,1924,\Un,,,Harvey,\Am,DPWA,1962,Harold `Herk'
 Hermosillo,JHH,,\Un,,,Hermosillo,\Me,D,1988,Jaime Humberto
 Heroux,DHx,,\Un,,,Heroux,\Am,D,1980,Denis
 Herrington,RHr,,\Un,,,Herrington,\Am,D,1992,Rowdy
-Herrmann,,1911,1975,1941, 1976,Herrmann,,M,,Bernard
+Herrmann,UsD,1911,1975,1941, 1976,Herrmann,,M,,Bernard
 Herskovitz,MaH,19xx,\Un,,1998,Herskovitz,\Am,D,1993,Marshall
 Herz,xHe,,\Un,,,Herz,,D,1982,
 Herzog,WH,1942,\Un,,1999,Herzog,\Ge,D,1967,Werner
 Herman,JHe,19xx,\Un,,,Herman,\Fr,D,1968,Jean
 Herman,MHe,19xx,\Un,,,M.Herman,\Ct,WD,1997,Mark
-Herrmann,,,,,,Herrmann,,M,,Bernard
 Hessler,GoH,1930,\Un,,1978,Hessler,\Am,D,1961,Gordon
 Heston,CH,1924,\Un,,1982,Carter,\Am,AD,1971,John Charlton
 Heumann,EHe,,\Un,,,Heumann,\Ct,D,1998,Eric
@@ -1772,7 +1770,7 @@ Leach,WiL,,\Un,,,Leach,\Br,DW,1982,Wilford
 Lean,DL,1908,\Un,,1984,Lean,\Br,ED,1942,David
 Norman~Lear,,1926,\Un,1967, 1972,Lear,\Am,P,,Norman
 LeBorg,RLB,,\Un,,1956,Le Borg,\Ct,D,1944,Reginald
-leCarre,id,1932 ,\199x,,,Cromwell,\Br,B,1999,David
+leCarre,id,1932 ,1990,,,Cromwell,\Br,B,1999,David
 Leconte,PLe,,\Un,,2000+,Leconte,\Fr,D,1990,Patrice
 H.Leder,HJL,,\Un,,,Leder,,D,1969,Herbert J.
 M.Leder,MmL,19xx,199x,,,Leder,\Ct,D,1997,Mimi
@@ -2085,7 +2083,6 @@ Menzel,JM,1938,,,,Menzel,\Cz,D,1966,Ji\v ri
 Menzies,WCM,1896,1957,,1954,Menzies,\Am,VD,1931,William Cameron
 Mercanton,LMe,,\Un,,,Mercanton,\Fr,D,1912,Louis
 Merchant,IsM,,199x,,,Merchant,\In,WPD,1994,Ismael
-Merendino,JMr,19xx,19yy,,,Merendino,\Ct,D,1998,James
 Merlet,AMt,19xx,19yy,,1997,Merlet,\Fr,WD,1995,Agn\`es
 Merzbach,xMe,,\Un,,,Merzbach,\Ct,D,1935,gn
 Meshekoff,MtM,19xx,\Un,,,Meshekoff,\Ct,D,1993,Matthew
@@ -2480,7 +2477,7 @@ Ramsay,LyR,19xx,19yy,,,Ramsay,\GB,WD,1999,Lynn
 Randel,CRd,19xx,\Un,,,Randel,\Am,D,1992,Christopher
 Ranga,DRa,,199x,,,Ranga,\Un,D,1997,Donna
 Ransick,WhR,19xx,\Un,,,Ransick,\Am,DW,1993,Whitney
-Ransohoff,,1927,\Un,1962-93,,Ransohoff,\Am,WP,,Martin
+Ransohoff,,1927,\Un,1962,1993,Ransohoff,\Am,WP,,Martin
 Rappaport,MRa,,\Un,,,Rappaport,\Ct,WD,1996,Mark
 Rappeneau,JPR,*,\Un,,1991,Rappeneau,\Fr,D,1975,Jean-Paul
 Rapper,IrR,1898,\Un,,1978,Rapper,\Am,D,1941,Irving
@@ -3149,7 +3146,7 @@ Unknown55,Z55,,\Un,,,Anonymous,\Ct,D,1988,gn
 Unknown51,Z51,,\Un,,,Anonymous,\Fr,D,1951,gn
 UnYear56,Z56,,\Un,,,UnYear1956,\CT,D,1956,gn
 Unknown57,Z57,,\Un,,,Anonymous,\Ct,D,1957,gn
-UnYear64,Z64,\Un,\Ct,,,gn,,D,1964td> UnYear1964,
+UnYear64,Z64,\Un,\Ct,,,gn,,D,1964,
 UnYear65,Z65,,\Un,,,UnYear1965,\Ct,D,1965,gn
 UnYear66,Z66,,\Un,,,UnYear1966,\Ct,D,1966,gn
 UnYear69,Z69,,\Un,,,UnYear1969,\Ct,D,1969,gn
@@ -3339,7 +3336,6 @@ Williams,SWi,1893,1969,1928,1962,Williams,\Am,AWD,1941,Spencer
 Whitesell,JWs,,,,,Whitesell,\Am,D,1996,Jane
 Wiard,WWi,,\Un,,,Wiard,\Am,D,1975,William
 Widerberg,BoW,1930,,,1979,Widerberg,\Sw,D,1963,Bo
-Wickes,DWi,,\Un,,,Wickes,\Am,D,1983,David
 Wicki,BeW,,2000,,,Wicki,\Ge,D,1959,Bernard
 Wiederhorn,KW,,\Un,,,Wiederhorn,\Am,D,1980,Ken
 Wiemer,RoW,,\Un,,,Wiemer,,WD,1980,Robert
