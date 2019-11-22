@@ -28,6 +28,7 @@ def load_movie_dir():
                 print(row)
                 # cursor.execute('INSERT INTO movie_directors VALUES(%s,%s,%s,%s,%s)', row)
                 try:
+                    cursor.execute('begin')
                     cursor.execute(
                         'INSERT INTO movie_directors VALUES(%s,%s,%s,%s,%s)',
                         row)
@@ -35,7 +36,7 @@ def load_movie_dir():
                 except(Exception, psycopg2.Error) as error:
                     errors.append(row)
                     print("Error: ", error)
-                    continue
+                    cursor.execute('abort')
         # conn.commit()
         count = cursor.rowcount
         print(count, "record inserted successfully into movie directors table")
@@ -48,5 +49,7 @@ def load_movie_dir():
         if(conn):
             cursor.close()
             conn.close()
-    print(errors)
+    print("ERRORS")
+    for error in errors:
+        print(error)
 main()
