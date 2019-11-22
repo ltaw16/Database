@@ -28,6 +28,7 @@ def load_movie_studio():
                 print(row)
                 # cursor.execute('INSERT INTO movie_directors VALUES(%s,%s,%s,%s,%s)', row)
                 try:
+                    cursor.execute("begin")
                     cursor.execute(
                         'INSERT INTO movie_studios VALUES(%s,%s,%s)',
                         row)
@@ -35,7 +36,7 @@ def load_movie_studio():
                 except(Exception, psycopg2.Error) as error:
                     errors.append(row)
                     print("Error: ", error)
-                    continue
+                    cursor.execute("abort")
         # conn.commit()
         count = cursor.rowcount
         print(count, "record inserted successfully into movie studio table")
