@@ -1,0 +1,26 @@
+<roletypes>
+    <roleentry><rlcode>Adv</rlcode><rlexplain> adversary</rlexplain></roleentry> 
+    <roleentry><rlcode>Agn</rlcode><rlexplain> agent</rlexplain></roleentry>
+    <roleentry><rlcode>Ani</rlcode><rlexplain> animal</rlexplain></roleentry>
+    <roleentry><rlcode>Bit</rlcode><rlexplain> bit role</rlexplain></roleentry>
+    <roleentry><rlcode>Cam</rlcode><rlexplain> cameo role</rlexplain></roleentry> 
+    <roleentry><rlcode>Com</rlcode><rlexplain> comedian</rlexplain></roleentry> 
+    <roleentry><rlcode>Cro</rlcode><rlexplain> crook</rlexplain></roleentry>
+    <roleentry><rlcode>Ent</rlcode><rlexplain> entertainer, dancer, singer</rlexplain></roleentry>
+    <roleentry><rlcode>Grp</rlcode><rlexplain> group or band</rlexplain></roleentry>
+    <roleentry><rlcode>Her</rlcode><rlexplain> hero</rlexplain></roleentry>
+    <roleentry><rlcode>Inn</rlcode><rlexplain> innocent</rlexplain></roleentry>
+    <roleentry><rlcode>Lov</rlcode><rlexplain> love interest</rlexplain></roleentry>
+    <roleentry><rlcode>Sav</rlcode><rlexplain> savior</rlexplain></roleentry> 
+    <roleentry><rlcode>Sci</rlcode><rlexplain> scientist</rlexplain></roleentry>
+    <roleentry><rlcode>Sdk</rlcode><rlexplain> sidekick</rlexplain></roleentry>
+    <roleentry><rlcode>Sus</rlcode><rlexplain> suspect</rlexplain></roleentry>
+    <roleentry><rlcode>Rul</rlcode><rlexplain> ruler</rlexplain></roleentry>
+    <roleentry><rlcode>Psy</rlcode><rlexplain> psychopath</rlexplain></roleentry>
+    <roleentry><rlcode>Und</rlcode><rlexplain> undetermined</rlexplain></roleentry>
+    <roleentry><rlcode>Vmp</rlcode><rlexplain> vamp</rlexplain></roleentry> 
+    <roleentry><rlcode>Vic</rlcode><rlexplain> victim</rlexplain></roleentry>
+    <roleentry><rlcode>Vil</rlcode><rlexplain> villain}</rlexplain></roleentry>
+    <roleentry><rlcode>Voi</rlcode><rlexplain> voice only, narrator</rlexplain></roleentry>
+    <roleentry><rlcode>Wmp</rlcode><rlexplain> wimp</rlexplain></roleentry>
+</roletypes>

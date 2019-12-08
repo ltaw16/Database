@@ -1,0 +1,33 @@
+<categories>
+    <catcodeentry>
+        <catcode>Actn</catcode>
+        <catexplain>violence</catexplain>
+    </catcodeentry>
+<catcodeentry><catcode>Advt</catcode><catexplain>adventure</catexplain></catcodeentry>
+<catcodeentry><catcode>AvGa</catcode><catexplain>Avant Garde</catexplain></catcodeentry>
+<catcodeentry><catcode>BioP</catcode><catexplain>biographical Picture</catexplain></catcodeentry>
+<catcodeentry><catcode>Camp</catcode><catexplain>now - camp</catexplain></catcodeentry>
+<catcodeentry><catcode>Cart</catcode><catexplain>cartoon</catexplain></catcodeentry>
+<catcodeentry><catcode>CnRb</catcode><catexplain>Cops and Robbers</catexplain></catcodeentry>
+<catcodeentry><catcode>Comd</catcode><catexplain>comedy</catexplain></catcodeentry>
+<catcodeentry><catcode>Disa</catcode><catexplain>Disaster</catexplain></catcodeentry>
+<catcodeentry><catcode>Docu</catcode><catexplain>documentary</catexplain></catcodeentry>
+<catcodeentry><catcode>Dram</catcode><catexplain>drama</catexplain></catcodeentry>
+<catcodeentry><catcode>Epic</catcode><catexplain>epic</catexplain></catcodeentry>
+<catcodeentry><catcode>Faml</catcode><catexplain>family</catexplain></catcodeentry>
+<catcodeentry><catcode>Hist</catcode><catexplain>history</catexplain></catcodeentry>
+<catcodeentry><catcode>Horr</catcode><catexplain>horror</catexplain></catcodeentry>
+<catcodeentry><catcode>Musc</catcode><catexplain>musical</catexplain></catcodeentry>
+<catcodeentry><catcode>Myst</catcode><catexplain>mystery</catexplain></catcodeentry>
+<catcodeentry><catcode>Noir</catcode><catexplain>black</catexplain></catcodeentry>
+<catcodeentry><catcode>Porn</catcode><catexplain>soft or hard pornography</catexplain></catcodeentry>
+<catcodeentry><catcode>Romt</catcode><catexplain>romantic</catexplain></catcodeentry>
+<catcodeentry><catcode>ScFi</catcode><catexplain>science fiction</catexplain></catcodeentry>
+<catcodeentry><catcode>Sprt</catcode><catexplain>sports: baseball, football, golf</catexplain></catcodeentry>
+<catcodeentry><catcode>Surl</catcode><catexplain>sureal</catexplain></catcodeentry>
+<catcodeentry><catcode>Susp</catcode><catexplain>thriller</catexplain></catcodeentry>
+<catcodeentry><catcode>TV</catcode><catexplain>made for TV film</catexplain></catcodeentry>
+<catcodeentry><catcode>TVser</catcode><catexplain>TV seriees</catexplain></catcodeentry>
+<catcodeentry><catcode>TVmini</catcode><catexplain>TV miniseries</catexplain></catcodeentry>
+<catcodeentry><catcode>West</catcode><catexplain>western</catexplain></catcodeentry>
+</categories>
